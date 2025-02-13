@@ -10,7 +10,7 @@ If you know of any associated projects that are not listed here, please file a p
 * [containers/youki][youki] - Runtime implementation in Rust
 * [opencontainers/runc][runc] - Reference implementation of OCI runtime
 * [projectatomic/bwrap-oci][bwrap-oci] - Convert the OCI spec file to a command line for [bubblewrap][bubblewrap]
-* [systemd/systemd][systemd] - Contains [systemd-nspawn][nspawn], runtime implementation in C
+* [systemd/systemd][systemd] - Contains [systemd-nspawn][nspawn], runtime implementation in C (via `--oci-bundle` option since systemd v242)
 
 ## <a name="implementationsRuntimeVirtualMachine" />Runtime (Virtual Machine)
 
